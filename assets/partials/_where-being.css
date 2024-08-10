@@ -1,0 +1,52 @@
+.where-being {
+    margin: 15px;
+}
+
+.where-actually {
+    font-size: 32px;
+    background-color: #0bce59;
+    padding: 12px;
+    border-radius: 30px 0 30px 0;
+}
+
+.being-description {
+    font-size: 18px;
+}
+
+.states-being {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 40px;
+    text-align: center;
+}
+
+.state-flag {
+    width: 120px;
+    height: 90px;
+}
+
+.state-name {
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+@media (min-width: 1000px) {
+    .being-description {
+        text-align: center;
+    }
+
+    .where-actually {
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 100px;
+        width: 800px;
+    }
+    .states-being {
+        margin: 0 auto;
+        margin-top: 60px;
+        width: 500px;
+    }
+  }

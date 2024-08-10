@@ -1,0 +1,77 @@
+.herobanner-wrapper {
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 5;
+    padding-top: 100px;
+    box-sizing: border-box;
+  }
+  
+  .slider {
+    display: flex;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 24px 48px -12px hsla(0, 0%, 0%, 0.25);
+    border-radius: 8px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .slider::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .slider img {
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: fill;
+    width: 100%;
+  }
+  
+  .herobanner-nav {
+    display: flex;
+    column-gap: 16px;
+    justify-content: center;
+    position: relative;
+    top: -20px;
+  }
+  
+  .herobanner-nav a {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+  }
+  
+  .herobanner-nav a:hover {
+    background-color: #0bce59;
+  }
+
+  .about-agrinho {
+    margin: 15px;
+  }
+
+  .about-title {
+    font-size: 32px;
+  }
+
+  .about-description {
+    font-size: 18px;
+  }
+
+  @media (min-width: 1000px) {
+    .herobanner-wrapper {
+        max-width: 60%;
+    }
+
+    .about-agrinho {
+        text-align: center;
+    }
+  }

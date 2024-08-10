@@ -1,0 +1,81 @@
+.agrinho-actions {
+    margin: 15px;
+}
+
+.actions {
+    font-size: 32px;
+    background-color: #0bce59;
+    padding: 12px;
+    border-radius: 0 30px 0 30px;
+}
+
+.actions-description {
+    font-size: 18px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+
+.card {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-text {
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 0 0 10px 10px;
+}
+
+@media (min-width: 1000px) {
+    .agrinho-actions {
+        text-align: center;
+    }
+    
+    .actions {
+        text-align: center;
+    }
+    
+    .actions-description {
+        text-align: center;
+    }
+
+    .card-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .card {
+        width: 32%;
+        border: solid 3px transparent;
+        transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    }
+
+    .card img {
+        height: 300px;
+    }
+
+    .card:hover {
+        border: #0bce59 solid 3px;
+        transform: scale(1.05);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+}

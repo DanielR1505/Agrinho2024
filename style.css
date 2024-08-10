@@ -1,0 +1,11 @@
+/* Header, sections e footer */
+
+@import url(assets/partials/_reset.css);
+@import url(assets/partials/_header.css);
+@import url(assets/partials/_herobanner.css);
+@import url(assets/partials/_start-of-agrinho.css);
+@import url(assets/partials/_where-being.css);
+@import url(assets/partials/_the_objective.css);
+@import url(assets/partials/_agrinho-actions.css);
+@import url(assets/partials/_footer.css);
+
