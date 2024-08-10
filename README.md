@@ -16,3 +16,7 @@ Este é o código-fonte do site do Programa Agrinho, uma iniciativa focada em ed
 - **Seções Informativas:** Informações detalhadas sobre o que é o Programa Agrinho, seus objetivos e onde atua.
 - **Vídeos:** Inclusão de vídeos informativos sobre o programa.
 - **Cards com Links:** Cards interativos que direcionam para notícias e projetos relevantes.
+
+## Site finalizado:
+
+https://agrinho2024-black.vercel.app/
